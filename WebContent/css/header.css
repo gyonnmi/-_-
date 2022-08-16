@@ -1,0 +1,25 @@
+/*header.css*/
+
+.header {
+	width: 100%;
+	background-color: lavender;
+	color: deepskyblue;
+}
+
+.nav > h1 {
+	text-align: center;	
+	line-height: 80px;
+}
+
+.gnb {}
+
+.gnb > ul {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.gnb > ul > li > a {
+	padding: 0px 20px;
+	line-height: 50px;
+	color: #8000ff;
+}

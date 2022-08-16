@@ -1,0 +1,50 @@
+/*join.css*/
+
+@import url("reset.css");
+@import url("header.css");
+@import url("footer.css");
+
+.container {
+	width: 100%;
+	height: calc(100vh - 130px - 50px);
+}
+
+.inner-con {
+	display: flex;
+	justify-content: center;
+}
+
+.inner-con table {
+	text-align: center;
+}
+
+.inner-con table thead tr th {
+	line-height: 50px;
+}
+
+table tbody tr td {
+	border: 3px double #c0c0c0;
+	line-height: 30px;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+table tbody tr td input {
+	height: 35px;
+}
+
+table tbody tr td select {
+	height: 35px;
+}
+
+.td_last {
+	background: #c0c0c0;
+	border: none;
+	font-size: 1em;
+}
+
+tfoot tr td a {
+	border: 1px solid #ffffff;
+
+}
+

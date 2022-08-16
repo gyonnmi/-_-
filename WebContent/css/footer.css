@@ -1,0 +1,9 @@
+/*footer.css*/
+
+.footer {
+	width: 100%;
+	line-height: 50px;
+	background-color: lavender;
+	text-align: center;
+	color: deepskyblue;
+}
